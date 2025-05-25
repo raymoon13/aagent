@@ -1,0 +1,32 @@
+{
+  "name": "aagent",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/raymoon13/aagent#readme",
+  "bugs": {
+    "url": "https://github.com/raymoon13/aagent/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raymoon13/aagent.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --build",
+    "start": "node dist/index.js",
+    "dev": "nodemon ./src/index.ts"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.2",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
